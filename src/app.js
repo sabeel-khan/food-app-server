@@ -8,7 +8,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.use(cors({
-    origin: ['http://localhost:5173'],
+    origin: ['http://localhost:5173', 'https://dashing-bunny-4ecabf.netlify.app'],
     methods: ['GET', 'POST', 'PATCH', 'DELETE'],
     credentials: true
 }));
